@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  background-color: white;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+}
+
+nav li {
+  font-size: 14px;
+}
+
+a.text-gray:hover {
+  color: #42A85F;
+}
+
+a.text-gray:focus {
+  color: #42A85F;
+}
+
+a.text-gray:target {
+  color: #42A85F;
+}
+
+.bg-green {
+  background-color: #42A85F;
+  color: white;
+}
+
+.bg-lightgray {
+  background-color: #FBFBFB;
+}
+
+.btn-green {
+  background-color: #42A85F;
+  color: white;
+}
+
+.btn-white {
+  background-color: white;
+  color: #42A85F;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-semibold {
+  font-weight: 600;
+}
+
+.text-gray {
+  color: #333;
+}
+
+.text-green {
+  color: #42A85F;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.p-50 {
+  padding: 50px;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.search-navbar {
+  max-width: 150px;
+}
+
+.bg-green a {
+  color: white;
+}
+
+@media all and (min-width: 992px) {
+  .dropdown-menu li {
+    position: relative;
+  }
+  .nav-item .submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+  }
+  .nav-item .submenu-left {
+    right: 100%;
+    left: auto;
+  }
+  .dropdown-menu > li:hover {
+    background-color: #f1f1f1;
+  }
+  .dropdown-menu > li:hover > .submenu {
+    display: block;
+  }
+}
+/* ============ desktop view .end// ============ */
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+  .dropdown-menu .dropdown-menu {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    margin-bottom: 0.5rem;
+  }
+}/*# sourceMappingURL=style.css.map */
