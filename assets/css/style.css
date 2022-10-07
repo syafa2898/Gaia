@@ -10,34 +10,34 @@ nav li {
 }
 
 a.text-gray:hover {
-  color: #42A85F;
+  color: #42a85f;
 }
 
 a.text-gray:focus {
-  color: #42A85F;
+  color: #42a85f;
 }
 
 a.text-gray:target {
-  color: #42A85F;
+  color: #42a85f;
 }
 
 .bg-green {
-  background-color: #42A85F;
+  background-color: #42a85f;
   color: white;
 }
 
 .bg-lightgray {
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
 }
 
 .btn-green {
-  background-color: #42A85F;
+  background-color: #42a85f;
   color: white;
 }
 
 .btn-white {
   background-color: white;
-  color: #42A85F;
+  color: #42a85f;
 }
 
 .fw-medium {
@@ -53,7 +53,7 @@ a.text-gray:target {
 }
 
 .text-green {
-  color: #42A85F;
+  color: #42a85f;
 }
 
 .mb-30 {
