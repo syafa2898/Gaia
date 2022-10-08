@@ -57,7 +57,7 @@ body {
 
 .centered-line {
   position: absolute;
-  top: 20%;
+  top: 19%;
   width: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -234,6 +234,10 @@ a.text-gray:target {
 
 .mb-20 {
   margin-bottom: 20px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
 }
 
 .mb-50 {
