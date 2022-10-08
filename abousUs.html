@@ -7,22 +7,23 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/aboutUs.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
 <body>
     <div class="linkHead text-center p-5">
-        <div class="tittle fw-bold">About Us</div>
-        <div class="link d-flex justify-content-center gap-1 text-center">
+        <div class="tittle fw-medium">About Us</div>
+        <div class="link d-flex justify-content-center gap-1 text-center pt-3">
             <div class="homeLink">Home</div>
             <div class="slash">/</div>
             <div class="opacity-50">About</div>
         </div>
     </div>
-    <section id="section1">
+    <section id="section1" class="mt-100">
         <div class="container">
-            <div class="d-flex justify-content-between flex-column-reverse flex-md-column-reverse flex-lg-row w-100">
+            <div
+                class="d-flex justify-content-between flex-column-reverse flex-md-column-reverse flex-lg-row gap-5 gap-md-0 w-100 p-2 p-md-0">
                 <div class="col-lg-7 col-md-12 col-12 sm-mb-5 d-flex flex-column gap-1">
                     <p class="tittleFirstSection fw-medium">About Gaia</p>
                     <h2 class="mb-4 fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicingelit</h2>
@@ -46,24 +47,30 @@
         <div class="container">
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="text-center p-3">
-                        <img src="assets/img/logo/earth.png" alt="earth">
-                        <p class="fw-medium tittleLogoSection2">Lorem ipsum</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                    <div class="text-center p-3 w-75 m-auto">
+                        <div>
+                            <img src="assets/img/logo/earth.png" alt="earth">
+                            <p class="fw-medium tittleLogoSection2">Lorem ipsum</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="text-center p-3">
-                        <img src="assets/img/logo/recycle.png" alt="recycle">
-                        <p class="fw-medium tittleLogoSection2">Lorem ipsum</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                    <div class="text-center p-3 w-75 m-auto">
+                        <div>
+                            <img src="assets/img/logo/recycle.png" alt="earth">
+                            <p class="fw-medium tittleLogoSection2">Lorem ipsum</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="text-center p-3">
-                        <img src="assets/img/logo/leaf.png" alt="leaf">
-                        <p class="fw-medium tittleLogoSection2">Lorem ipsum</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                    <div class="text-center p-3 w-75 m-auto">
+                        <div>
+                            <img src="assets/img/logo/leaf.png" alt="earth">
+                            <p class="fw-medium tittleLogoSection2">Lorem ipsum</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -256,7 +263,7 @@
     </section>
     <section id="section7">
         <div class="container">
-            <div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
+            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 d-flex align-items-center">
                 <div class="col pe-5">
                     <p class="tittleFirstSection fw-medium">Partner</p>
                     <h2 class="mb-4 fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicingelit</h2>
@@ -265,14 +272,17 @@
                         Masruroh, SH., public notary in Tangerang District, Banten, Indonesia.​
                     </p>
                 </div>
-                <div class="col d-flex justify-content-center flex-column gap-3">
-                    <div class="top m-auto">
+                <div
+                    class="col partnerContainer d-flex justify-content-center flex-row flex-nowrap flex-md-column flex-md-wrap gap-3">
+                    <div class="top m-md-auto m-0">
                         <img src="assets/img/logo/partner1.png" alt="">
                     </div>
-                    <div class="bot d-flex flex-wrap3 m-auto gap-3">
+                    <div class="bot d-flex flex-wrap m-auto gap-3">
                         <img src="assets/img/logo/partner2.png" alt="">
-                        <img src="assets/img/logo/partner3.png" alt="">
-                        <img src="assets/img/logo/partner4.png" alt="">
+                        <div class="d-flex cardBaru gap-3">
+                            <img src="assets/img/logo/partner3.png" alt="">
+                            <img src="assets/img/logo/partner4.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
