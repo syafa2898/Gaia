@@ -301,10 +301,40 @@ a.text-gray:target {
   font-size: 16px;
 }
 
+@media (min-width: 992px) and (max-width: 1175px) {
+  .card {
+    width: 320px;
+    height: 270px;
+  }
+
+  .card-body {
+    padding: 25px 25px 35px 25px;
+  }
+
+  .services-img {
+    border-radius: 15px;
+    width: 70px;
+    margin-bottom: 15px;
+  }
+
+  .services-desc {
+    font-weight: 500;
+    font-size: 13px;
+  }
+
+  .services-title {
+    font-weight: 700;
+    font-size: 17px;
+
+    margin-bottom: 8px;
+  }
+}
+
 @media all and (min-width: 992px) {
   .dropdown-menu li {
     position: relative;
   }
+
   .nav-item .submenu {
     display: none;
     position: absolute;
@@ -428,30 +458,30 @@ a.text-gray:target {
 
   @media (max-width: 400px) {
     .card {
-      width: 250px;
-      height: 200px;
+      width: 290px;
+      height: 230px;
     }
 
     .card-body {
-      padding: 15px 15px 25px 15px;
+      padding: 20px 20px 30px 20px;
     }
 
     .services-img {
       border-radius: 5px;
-      width: 40px;
-      margin-bottom: 10px;
+      width: 50px;
+      margin-bottom: 15px;
     }
 
     .services-desc {
       font-weight: 400;
-      font-size: 10px;
+      font-size: 13px;
     }
 
     .services-title {
       font-weight: 600;
-      font-size: 15px;
+      font-size: 17px;
 
-      margin-bottom: 4px;
+      margin-bottom: 6px;
     }
   }
 }
