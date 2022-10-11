@@ -21,18 +21,12 @@ a.text-gray:target {
   color: #42A85F;
 }
 
-.bg-green {
-  background-color: #42A85F;
-  color: white;
+.section-100 {
+  padding: 100px 0;
 }
 
 .bg-lightgray {
   background-color: #FBFBFB;
-}
-
-.btn-green {
-  background-color: #42A85F;
-  color: white;
 }
 
 .btn-white {
@@ -52,8 +46,28 @@ a.text-gray:target {
   color: #333;
 }
 
-.text-green {
-  color: #42A85F;
+.title1 {
+  font-size: 36px;
+}
+
+.title2 {
+  font-size: 28px;
+}
+
+.title3 {
+  font-size: 24px;
+}
+
+.title4 {
+  font-size: 20px;
+}
+
+.title5 {
+  font-size: 18px;
+}
+
+.title6 {
+  font-size: 16px;
 }
 
 .mb-30 {
@@ -98,10 +112,12 @@ a.text-gray:target {
 
 .search-navbar {
   max-width: 150px;
+  max-height: 31px;
 }
 
-.bg-green a {
-  color: white;
+.btn-navbar {
+  padding: 1px 10px;
+  max-height: 35px;
 }
 
 @media all and (min-width: 992px) {
