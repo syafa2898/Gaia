@@ -11,6 +11,37 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* contact section */
+.region-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.contact-card {
+  position: relative;
+  width: 564px;
+  height: 622px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 30px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.address-title {
+  width: 94px;
+  height: 30px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: $green2;
+}
+/* projects starts */
+
 .section-label {
   display: flex;
   flex-direction: column;
@@ -24,6 +55,10 @@ body {
 
 .bg-green-2 {
   background-color: $green2;
+}
+
+.green-2 {
+  color: $green2;
 }
 
 .label-text {
@@ -75,11 +110,10 @@ body {
   color: $green2;
 }
 
-.process-desc {
+.text-desc {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  text-align: center;
 
   color: $gray;
 }
@@ -126,13 +160,6 @@ body {
   position: relative;
 }
 
-.section {
-  padding-top: 100px;
-  background-size: cover;
-  min-height: 50vh;
-  padding-bottom: 100px;
-}
-
 .accordion-item {
   border-left: none;
   border-right: none;
@@ -140,24 +167,6 @@ body {
   border-color: black;
 }
 
-.process {
-  background-color: transparent;
-}
-
-.bg-services {
-  background-color: #51b56d;
-}
-
-.green-2 {
-  color: $green2;
-}
-
-.bg-lightgreen {
-  background-color: #aaca69;
-  color: white;
-}
-
-/*  */
 .thumbnail {
   position: relative;
   width: 100px; /*Or whatever you want*/
@@ -174,6 +183,13 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.bg-lightgreen {
+  background-color: #aaca69;
+  color: white;
+}
+
+/* end projects */
 
 nav li {
   font-size: 14px;
@@ -288,6 +304,10 @@ a.text-gray:target {
   padding-top: 100px;
 }
 
+.pt-36 {
+  padding-top: 36px;
+}
+
 .p-qa {
   padding-left: 295px;
   padding-right: 295px;
@@ -390,7 +410,7 @@ a.text-gray:target {
     font-size: 21px;
   }
 
-  .process-desc {
+  .text-desc {
     font-size: 15px;
   }
 
@@ -452,7 +472,7 @@ a.text-gray:target {
     width: 15%;
   }
 
-  .process-desc {
+  .text-desc {
     font-size: 15px;
   }
 
