@@ -28,6 +28,11 @@ body {
   border-radius: 20px;
 }
 
+textarea {
+  width: 464px;
+  height: 90px;
+}
+
 .address-title {
   width: 94px;
   height: 30px;
@@ -217,7 +222,7 @@ a.text-gray:target {
 }
 
 .btn-green {
-  background-color: $green;
+  background-color: $green2;
   color: white;
 }
 
