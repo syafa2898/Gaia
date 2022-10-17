@@ -5,6 +5,32 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/*blog section*/
+.date-post {
+  color: #51b56d;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.header-post {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  padding-right: 30px;
+}
+
+.desc-post {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  padding-right: 30px;
+}
+
 /* contact section */
 .region-title {
   font-weight: 600;
@@ -68,6 +94,7 @@ textarea {
   font-weight: 600;
   font-size: 28px;
   line-height: 42px;
+  font-family: "Poppins", sans-serif;
 }
 
 .banner-title2 {
@@ -299,6 +326,10 @@ a.text-gray:target {
 
 .pt-50 {
   padding-top: 50px;
+}
+
+.pt-30 {
+  padding-top: 30px;
 }
 
 .pt-36 {
