@@ -206,12 +206,35 @@ textarea {
   position: relative;
   width: 100px; /*Or whatever you want*/
 }
-
+.latest-article-image {
+  height: 113px;
+  width: 90px;
+  border-radius: 5px;
+}
+.prevNextButton {
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
 .thumb-vid {
   width: 100%;
   border-radius: 3%;
 }
-
+.list-inline-item {
+  height: 48px;
+  width: 48px;
+  border-radius: 90px;
+  border: 1px solid rgba(81, 181, 109, 1);
+  border-radius: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-section {
+  padding: 25px 0 25px;
+}
+.widget img {
+  transform: scale(1.2);
+}
 .thumb-icon {
   position: absolute;
   top: 50%;
@@ -455,9 +478,33 @@ a.text-gray:target {
     padding: 40px;
   }
 }
-
+#qouteImage {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+#qouteImage .quoteText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#qouteImage .quoteText p {
+  font-size: 1.9rem;
+  font-weight: 700;
+}
 /* ============ desktop view .end// ============ */
 /* ============ small devices ============ */
+@media (max-width: 834px) {
+  #qouteImage .quoteText p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 485px) {
+  #qouteImage .quoteText p {
+    font-size: 0.8rem;
+  }
+}
 @media (max-width: 992px) {
   .dropdown-menu .dropdown-menu {
     margin-left: 0.7rem;
