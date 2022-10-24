@@ -126,7 +126,7 @@ a.text-gray:target {
     display: block;
   }
 }
-.linkHead .tittle {
+.tittle {
   font-size: 28px;
   color: #42a85f;
 }
