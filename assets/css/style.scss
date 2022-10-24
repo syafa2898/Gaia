@@ -105,6 +105,19 @@ a.text-gray:target {
 }
 
 //project-index
+nav li {
+  font-size: 14px;
+}
+
+a.page-link:hover {
+  color: $green;
+}
+
+a.page-link {
+  border: 1px solid rgba(177, 177, 177, 1);
+  color: $green;
+}
+
 .banner {
   position: relative;
   text-align: center;
