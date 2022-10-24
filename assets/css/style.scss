@@ -153,9 +153,12 @@ a.text-gray:target {
 .card-shadow {
   transition: 0.5s;
 }
-
 .card-shadow:hover {
   box-shadow: 0px 4px 30px 2px rgba(0, 0, 0, 0.25);
+}
+.prevNextButton {
+  margin-top: 90px;
+  margin-bottom: 20px;
 }
 
 // nested dropdown
