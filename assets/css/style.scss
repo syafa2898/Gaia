@@ -11,6 +11,59 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* resources */
+.example {
+  position: relative;
+}
+
+.example .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+}
+
+.gaia-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.example img {
+  width: 100%;
+  filter: brightness(0.6);
+}
+
+#data-table_previous a {
+  color: $green2;
+}
+
+#data-table_next a {
+  color: $green2;
+}
+
+.active > .page-link {
+  background-color: $green2;
+  border-color: #dee2e6;
+}
+
+.active > .page-link:hover {
+  color: white;
+}
+
+a.page-link {
+  color: $green2;
+}
+
+a.page-link:hover {
+  color: $green2;
+}
+
 /*blog section*/
 
 .date-post {

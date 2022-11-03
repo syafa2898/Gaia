@@ -5,6 +5,59 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* resources */
+.example {
+  position: relative;
+}
+
+.example .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+}
+
+.gaia-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.example img {
+  width: 100%;
+  filter: brightness(0.6);
+}
+
+#data-table_previous a {
+  color: #51b56d;
+}
+
+#data-table_next a {
+  color: #51b56d;
+}
+
+.active > .page-link {
+  background-color: #51b56d;
+  border-color: #dee2e6;
+}
+
+.active > .page-link:hover {
+  color: white;
+}
+
+a.page-link {
+  color: #51b56d;
+}
+
+a.page-link:hover {
+  color: #51b56d;
+}
+
 /*blog section*/
 .date-post {
   color: #51b56d;
