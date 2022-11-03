@@ -11,6 +11,93 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* gallery */
+
+.btn-group > .btn {
+  border-color: rgba(177, 177, 177, 1);
+  // border-width: 1px;
+  color: $green2;
+  font-size: 14px;
+}
+
+.btn-group > .btn:hover {
+  border-color: rgba(177, 177, 177, 1);
+  color: white;
+  background-color: $green2;
+}
+
+.gallery-card {
+  width: 272px;
+  height: 303px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 0;
+  margin: 0;
+  transition: 0.3s;
+}
+
+.gallery-card > img {
+  border-radius: 10px 10px 0 0;
+}
+
+.gallery-card:hover {
+  box-shadow: 0px 4px 30px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* resources */
+
+.example {
+  position: relative;
+}
+
+.example .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+}
+
+.gaia-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.example img {
+  width: 100%;
+  filter: brightness(0.6);
+}
+
+#data-table_previous a {
+  color: $green2;
+}
+
+#data-table_next a {
+  color: $green2;
+}
+
+.active > .page-link {
+  background-color: $green2;
+  border-color: #dee2e6;
+}
+
+.active > .page-link:hover {
+  color: white;
+}
+
+a.page-link {
+  color: $green2;
+}
+
+a.page-link:hover {
+  color: $green2;
+}
+
 /*blog section*/
 
 .date-post {
@@ -37,7 +124,6 @@ body {
   line-height: 21px;
 
   color: #333333;
-  padding-right: 30px;
 }
 
 /* contact section */
@@ -357,6 +443,10 @@ a.text-gray:target {
   padding-bottom: 20px;
 }
 
+.pb-30 {
+  padding-bottom: 30px;
+}
+
 .pb-100 {
   padding-bottom: 100px;
 }
@@ -375,6 +465,16 @@ a.text-gray:target {
 
 .pt-36 {
   padding-top: 36px;
+}
+.pr-10 {
+  padding-right: 10px;
+}
+.pr-30 {
+  padding-right: 30px;
+}
+
+.pl-10 {
+  padding-left: 10px;
 }
 
 .p-qa {
