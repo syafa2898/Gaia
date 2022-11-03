@@ -105,6 +105,12 @@ a.text-gray:target {
   color: white;
 }
 
+.line-read-more {
+  margin-bottom: 10px;
+  height: 5px;
+  width: 20px;
+}
+
 nav li {
   font-size: 14px;
 }
