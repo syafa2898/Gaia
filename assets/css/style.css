@@ -10,15 +10,15 @@ nav li {
 }
 
 a.text-gray:hover {
-  color: #42A85F;
+  color: #51B56D;
 }
 
 a.text-gray:focus {
-  color: #42A85F;
+  color: #51B56D;
 }
 
 a.text-gray:target {
-  color: #42A85F;
+  color: #51B56D;
 }
 
 .section-100 {
@@ -29,9 +29,13 @@ a.text-gray:target {
   background-color: #FBFBFB;
 }
 
+.bg-lightgreen {
+  background-color: #C8FCD7;
+}
+
 .btn-white {
   background-color: white;
-  color: #42A85F;
+  color: #51B56D;
 }
 
 .fw-medium {
@@ -46,12 +50,18 @@ a.text-gray:target {
   color: #333;
 }
 
+.banner-title {
+  font-size: 48px;
+}
+
 .title1 {
   font-size: 36px;
+  line-height: 54px;
 }
 
 .title2 {
   font-size: 28px;
+  line-height: 42px;
 }
 
 .title3 {
@@ -60,6 +70,7 @@ a.text-gray:target {
 
 .title4 {
   font-size: 20px;
+  line-height: 30px;
 }
 
 .title5 {
@@ -68,6 +79,10 @@ a.text-gray:target {
 
 .title6 {
   font-size: 16px;
+}
+
+.title7 {
+  font-size: 14px;
 }
 
 .mb-30 {
@@ -102,8 +117,8 @@ a.text-gray:target {
   margin-top: 100px;
 }
 
-.p-50 {
-  padding: 50px;
+.p-40 {
+  padding: 40px;
 }
 
 .p-30 {
@@ -120,33 +135,52 @@ a.text-gray:target {
   max-height: 35px;
 }
 
-@media all and (min-width: 992px) {
-  .dropdown-menu li {
-    position: relative;
-  }
-  .nav-item .submenu {
-    display: none;
-    position: absolute;
-    left: 100%;
-    top: -7px;
-  }
-  .nav-item .submenu-left {
-    right: 100%;
-    left: auto;
-  }
-  .dropdown-menu > li:hover {
-    background-color: #f1f1f1;
-  }
-  .dropdown-menu > li:hover > .submenu {
-    display: block;
-  }
+.link-dropdown {
+  color: white;
 }
-/* ============ desktop view .end// ============ */
-/* ============ small devices ============ */
-@media (max-width: 991px) {
-  .dropdown-menu .dropdown-menu {
-    margin-left: 0.7rem;
-    margin-right: 0.7rem;
-    margin-bottom: 0.5rem;
+
+.link-dropdown:hover {
+  color: #51B56D;
+  background-color: white;
+}
+
+.banner-home {
+  background-image: url(../img/banner/bg-space.jpg);
+  padding: 70px 0;
+}
+
+.card-banner {
+  background: rgba(43, 45, 52, 0.5);
+  border-radius: 20px;
+  padding: 40px 30px;
+  transition: 0.3s;
+  color: #333;
+}
+
+.card-banner:hover {
+  color: #333;
+  box-shadow: 0px 4px 30px 2px rgba(0, 0, 0, 0.25);
+  background: rgba(43, 45, 52, 0.89);
+}
+
+.btn-banner {
+  border-radius: 5px;
+  padding: 7px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.card-home1 {
+  background-color: #C8FCD7;
+  border-radius: 20px;
+}
+
+.card-home1 h2 {
+  font-size: 64px;
+}
+
+@media only screen and (max-width: 500px) {
+  .sm-d-none {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- Template css -->
     <link rel="stylesheet" href="assets/css/style1.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     
   </head>
@@ -18,7 +20,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav ms-auto d-none">
             <li class="nav-item dropdown my-2 px-2">
               <a class="nav-link dropdown-toggle text-gray" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Our Services
@@ -72,20 +74,53 @@
               </ul>
             </li>
           </ul>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item my-2 px-2 dropdown">
+              <a class="nav-link dropdown-toggle text-gray fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Our Services
+              </a>
+              <ul class="dropdown-menu bg-primary">
+                <li><a class="dropdown-item link-dropdown" href="#!">Understanding Your Nature</a></li>
+                <li><a class="dropdown-item link-dropdown" href="#!">Managing Your Nature</a></li>
+                <li><a class="dropdown-item link-dropdown" href="#!">Nature Based Solution</a></li>
+              </ul>
+            </li>
+            <li class="nav-item my-2 px-2 dropdown">
+              <a class="nav-link dropdown-toggle text-gray fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About Us
+              </a>
+              <ul class="dropdown-menu bg-primary">
+                <li><a class="dropdown-item link-dropdown" href="#!">Our Profile</a></li>
+                <li><a class="dropdown-item link-dropdown" href="#!">Our People</a></li>
+              </ul>
+            </li>
+            <li class="nav-item my-2 px-2">
+              <a class="nav-link text-gray fw-medium" href="#!">Resources</a>
+            </li>
+            <li class="nav-item my-2 px-2">
+              <a class="nav-link text-gray fw-medium" href="#!">Projects</a>
+            </li>
+            <li class="nav-item my-2 px-2">
+              <a class="nav-link text-gray fw-medium" href="#!">News</a>
+            </li>
+            <li class="nav-item my-2 px-2">
+              <a class="nav-link text-gray fw-medium" href="#!">Contact</a>
+            </li>
+          </ul>
           <div class="navbar-nav ms-auto">
             <ul class="navbar-nav">
-              <li class="nav-item dropdown my-2 px-2">
-                <a class="nav-link dropdown-toggle text-gray" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <li class="nav-item my-2 px-2 dropdown">
+                <a class="nav-link dropdown-toggle text-gray fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   ENG
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
+                <ul class="dropdown-menu bg-primary">
+                  <li><a class="dropdown-item link-dropdown" href="#!">IND</a></li>
                 </ul>
               </li>
             </ul>
             <form class="d-flex my-2 px-2" role="search">
               <div class="me-2 align-self-center">
-                <input class="form-control w-100 search-navbar" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control w-100 search-navbar bg-lightgray" type="search" placeholder="Search" aria-label="Search">
               </div>
               <button class="btn btn-primary btn-navbar m-0" type="submit"><img src="assets/img/icon/search_icon.svg" alt="" class=""></button>
             </form>
@@ -95,35 +130,144 @@
     </nav>
     <!-- End navbar -->
 
-    <!-- Start breadcrumb -->
-    <section class="page-header" id="breadcrumb">
-      <div class="container">
-        <div class="row">
-          <div class="col-8 mx-auto text-center">
-            <h2 class="mb-3 text-capitalize text-primary title2">About Us</h2>
-            <ul class="list-inline breadcrumbs text-capitalize" style="font-weight:500">
-              <li class="list-inline-item"><a href="#!">Home</a>
-              </li>
-              <li class="list-inline-item">/ &nbsp; <a href="blog.html">About Us</a>
-              </li>
-            </ul>
+  <div class="banner-home text-white text-center d-flex justify-content-center" id="banner">
+    <div class="container">
+      <div class="col-md-10 col-12 m-auto">
+          <h1 class="banner-title1 text-white ">GAIA</h1>
+          <p class="title5 fw-semibold mt-3">Gaia is an Indonesia-based consultancy and project developer with a deep understanding on the local context dynamic, and skillful experienced human resources. We are helping businesses and organizations to deliver their ambitions in climate, biodiversity, and social commitments at the most effective, efficient, and timely manner. We are keen to work with people who want to leave the earth a better place than when they arrived.​</p>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-50 sm-d-none">
+        <div class="col">
+          <div class="card card-banner">
+            <div class="col-md-3 m-auto mb-5">
+              <img src="assets/img/logo/logo-understanding.png" class="card-img-top">
+            </div>
+            <div class="card-body">
+              <h5 class="title3 text-white">Understanding Nature</h5>
+              <p class="card-text text-white mt-3">We focus our service in spatial analysis and information management. </p>
+              <a href="#!" class="btn btn-banner bg-white w-100 mt-30">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-banner">
+            <div class="col-md-3 m-auto mb-5">
+              <img src="assets/img/logo/logo-managing.png" class="card-img-top">
+            </div>
+            <div class="card-body">
+              <h5 class="title3 text-white">Managing Nature</h5>
+              <p class="card-text text-white mt-3">We focus our service in spatial analysis and information management. </p>
+              <a href="#!" class="btn btn-banner bg-white w-100 mt-30">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-banner">
+            <div class="col-md-3 m-auto mb-5">
+              <img src="assets/img/logo/logo-solution.png" class="card-img-top">
+            </div>
+            <div class="card-body">
+              <h5 class="title3 text-white">Solution Nature</h5>
+              <p class="card-text text-white mt-3">We focus our service in spatial analysis and information management. </p>
+              <a href="#!" class="btn btn-banner bg-white w-100 mt-30">Read More</a>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- End breadcrumb -->
+    </div>
+  </div>
 
-    <!-- Start partner -->
-    <section class="bg-lightgray section-100" id="partner">
-      <div class="container">
-        <div class="col-md-8 col-12">
-          <h2 class="title2 fw-semibold text-primary mb-2">Partner</h2>
-          <h1 class="title1 fw-bold mb-30">We Are Part of Gaia Ecosystem</h1>
-          <p class="fw-medium">Is a holding company established in November 15, 2007. Gaia registered as PT Gaia Eko Daya Buana, is Indonesian national based on Notarial Deed of establishment No. 03 of Masruroh, SH., public notary in Tangerang District, Banten, Indonesia.</p>
+  <section class="home1 section-100 bg-lightgray" id="home1">
+    <div class="container">
+      <div class="text-center col-md-8 m-auto">
+        <h2 class="title1 text-primary">Lorem ipsum dolor</h2>
+        <p class="title4 mt-30 fw-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam, semper tempor sagittis scelerisque libero enim adipiscing. Diam leo arcu elit a hac convallis sit tempor massa. Sollicitudin vitae tortor</p>
+      </div>
+      
+      <div class="row row-cols-4 d-flex justify-content-center flex-wrap mt-80">
+        <div class="col d-flex flex-column ">
+          <div class="card card-home1 h-100 border-0 justify-content-center align-items-center p-40 text-center bg-lightgreen">
+            <p class="title4 fw-semibold text-primary">Countries</p>
+            <h2 class="fw-semibold text-primary">8</h2>
+          </div>
+        </div>
+        <div class="col d-flex flex-column ">
+          <div class="card card-home1 h-100 border-0 justify-content-center align-items-center p-40 text-center bg-lightgreen">
+            <p class="title4 fw-semibold text-primary">Subnational Governments</p>
+            <h2 class="fw-semibold text-primary">226</h2>
+          </div>
+        </div>
+        <div class="col d-flex flex-column ">
+          <div class="card card-home1 h-100 border-0 justify-content-center align-items-center p-40 text-center bg-lightgreen">
+            <p class="title4 fw-semibold text-primary">Management Bodies</p>
+            <h2 class="fw-semibold text-primary">231</h2>
+          </div>
+        </div>
+        <div class="col d-flex flex-column ">
+          <div class="card card-home1 h-100 border-0 justify-content-center align-items-center p-40 text-center bg-lightgreen">
+            <p class="title4 fw-semibold text-primary">Communities</p>
+            <h2 class="fw-semibold text-primary">1.226</h2>
+          </div>
+        </div>
+        <div class="col d-flex flex-column ">
+          <div class="card card-home1 h-100 mt-30 border-0 justify-content-center align-items-center p-40 text-center bg-lightgreen">
+            <p class="title4 fw-semibold text-primary">Community Members</p>
+            <h2 class="fw-semibold text-primary">21.226</h2>
+          </div>
+        </div>
+        <div class="col d-flex flex-column ">
+          <div class="card card-home1 h-100 mt-30 border-0 justify-content-center align-items-center p-40 text-center bg-lightgreen">
+            <p class="title4 fw-semibold text-primary">Estimated Buyers</p>
+            <h2 class="fw-semibold text-primary">1.226</h2>
+          </div>
+        </div>
+        <div class="col d-flex flex-column ">
+          <div class="card card-home1 h-100 mt-30 border-0 justify-content-center align-items-center p-40 text-center bg-lightgreen">
+            <p class="title4 fw-semibold text-primary">Communities</p>
+            <h2 class="fw-semibold text-primary">1.226</h2>
+          </div>
         </div>
       </div>
-    </section>
-    <!-- End partner -->
+    </div>
+  </section>
+
+  <section class="home2 section-100" id="home2">
+    <div class="container">
+      <div class="text-center col-md-6 m-auto">
+        <h4 class="title2 text-primary">Lorem ipsum dolor</h4>
+        <h2 class="title1 text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit </h2>
+      </div>
+      <div class="col-12">
+        <img src="assets/img/images/maps.jpg" alt="" class="w-100 mt-100">
+      </div>
+      <div class="row row-cols-2 row-cols-md-4 g-4 mt-50">
+        <div class="col">
+          <div class="card border-0">
+            <h4 class="title4 fw-bold text-primary">Lorem ipsum dolor sit amet</h4>
+            <p class="mt-1 title7 fw-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit1<br> Jakarta, Indonesia</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <h4 class="title4 fw-bold text-primary">Lorem ipsum dolor sit amet</h4>
+            <p class="mt-1 title7 fw-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit1<br> Jakarta, Indonesia</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <h4 class="title4 fw-bold text-primary">Lorem ipsum dolor sit amet</h4>
+            <p class="mt-1 title7 fw-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit1<br> Jakarta, Indonesia</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <h4 class="title4 fw-bold text-primary">Lorem ipsum dolor sit amet</h4>
+            <p class="mt-1 title7 fw-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit1<br> Jakarta, Indonesia</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
