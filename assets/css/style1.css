@@ -57,7 +57,6 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #fff;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -1723,7 +1722,7 @@ progress {
 .table {
   --bs-table-bg: transparent;
   --bs-table-accent-bg: transparent;
-  --bs-table-striped-color: #fff;
+  /* --bs-table-striped-color: #fff; */
   --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
   --bs-table-active-color: #fff;
   --bs-table-active-bg: rgba(0, 0, 0, 0.1);
@@ -1731,7 +1730,6 @@ progress {
   --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
   width: 100%;
   margin-bottom: 1rem;
-  color: #fff;
   vertical-align: top;
   border-color: #ACB9C4;
 }
@@ -1953,7 +1951,6 @@ progress {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #fff;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -2169,7 +2166,6 @@ textarea.form-control-lg {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #fff;
   background-color: #fff;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
@@ -2510,7 +2506,6 @@ textarea.form-control-lg {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #fff;
   text-align: center;
   white-space: nowrap;
   background-color: #e9ecef;
@@ -2739,7 +2734,6 @@ textarea.form-control-lg {
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
-  color: #fff;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -3294,7 +3288,7 @@ textarea.form-control-lg {
   padding: 0.5rem 0;
   margin: 0;
   font-size: 1rem;
-  color: #fff;
+  /* color: #fff; */
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -9832,7 +9826,7 @@ blockquote::before {
 }
 
 .form-control:not(textarea) {
-  height: 55px;
+  /* height: 55px; */
 }
 
 textarea.form-control {

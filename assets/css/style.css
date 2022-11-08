@@ -87,14 +87,6 @@ a.text-gray:target {
   font-size: 14px;
 }
 
-input.input-custom {
-  height: 33px;
-}
-
-textarea.ta-custom {
-  height: 90px;
-}
-
 .mb-20 {
   margin-bottom: 20px;
 }
@@ -173,7 +165,7 @@ textarea.ta-custom {
 
 .banner-home {
   background-image: url(../img/banner/bg-space.jpg);
-  padding: 70px 0;
+  padding: 100px 0;
 }
 
 .card-banner {
