@@ -264,6 +264,9 @@ a.page-link {
   }
 }
 // about us section
+.about-us p {
+  font-weight: 500;
+}
 .tittle {
   font-size: 28px;
   color: $green;
@@ -339,7 +342,7 @@ a.page-link {
   border-radius: 50%;
 }
 
-.tittleSection .fw-medium {
+.tittleSection .fw-semibold {
   font-size: 28px;
   color: $green;
 }
@@ -368,6 +371,7 @@ a.page-link {
 .cardPeople .position {
   color: $green;
   font-size: 16px;
+  font-weight: 600;
 }
 #section2 {
   padding-top: 100px;

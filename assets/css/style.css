@@ -289,6 +289,10 @@ a.page-link {
     display: block;
   }
 }
+.about-us p {
+  font-weight: 500;
+}
+
 .tittle {
   font-size: 28px;
   color: #42a85f;
@@ -366,7 +370,7 @@ a.page-link {
   border-radius: 50%;
 }
 
-.tittleSection .fw-medium {
+.tittleSection .fw-semibold {
   font-size: 28px;
   color: #42a85f;
 }
@@ -398,6 +402,7 @@ a.page-link {
 .cardPeople .position {
   color: #42a85f;
   font-size: 16px;
+  font-weight: 600;
 }
 
 #section2 {
