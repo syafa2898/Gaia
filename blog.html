@@ -1,91 +1,83 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style1.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Gaia Indonesia - Blog</title>
+      <!-- bootstrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+      <!-- slick -->
+      <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+      <!-- Template css -->
+      <link rel="stylesheet" href="assets/css/style1.css">
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="assets/css/style.css">
+      
   </head>
   <body>
     <!-- Start navbar -->
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="assets/img/logo/logo-gaia.png" alt=""></a>
+        <a class="navbar-brand" href="index.html"><img src="assets/img/logo/logo-gaia.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item dropdown my-2 px-2">
-              <a class="nav-link dropdown-toggle text-gray" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li class="nav-item my-2 px-2 dropdown">
+              <a class="nav-link dropdown-toggle text-gray fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Our Services
               </a>
-              <ul class="dropdown-menu bg-green">
-                <li><a class="dropdown-item dropdown-toggle" href="#">Understanding Your Nature</a>
-                  <ul class="submenu dropdown-menu">
-                    <li><a class="dropdown-item text-dark" href="#">Biodiversity & Social Value</a></li>
-                    <li><a class="dropdown-item text-dark" href="#">Submenu item 2</a></li>
-                  </ul></li>
+              <ul class="dropdown-menu bg-primary">
+                <li><a class="dropdown-item link-dropdown" href="#!">Understanding Your Nature</a></li>
+                <li><a class="dropdown-item link-dropdown" href="#!">Managing Your Nature</a></li>
+                <li><a class="dropdown-item link-dropdown" href="#!">Nature Based Solution</a></li>
               </ul>
             </li>
-            <li class="nav-item dropdown my-2 px-2">
-              <a class="nav-link dropdown-toggle text-gray" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li class="nav-item my-2 px-2 dropdown">
+              <a class="nav-link dropdown-toggle text-gray fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 About Us
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
+              <ul class="dropdown-menu bg-primary">
+                <li><a class="dropdown-item link-dropdown" href="#!">Our Profile</a></li>
+                <li><a class="dropdown-item link-dropdown" href="#!">Our People</a></li>
               </ul>
             </li>
-            <li class="nav-item dropdown my-2 px-2">
-              <a class="nav-link dropdown-toggle text-gray" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Resources
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-              </ul>
+            <li class="nav-item my-2 px-2">
+              <a class="nav-link text-gray fw-medium" href="resources.html">Resources</a>
             </li>
-            <li class="nav-item dropdown my-2 px-2">
-              <a class="nav-link dropdown-toggle text-gray" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Projects
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-              </ul>
+            <li class="nav-item my-2 px-2">
+              <a class="nav-link text-gray fw-medium" href="#!">Projects</a>
             </li>
-            <li class="nav-item dropdown my-2 px-2">
-              <a class="nav-link dropdown-toggle text-gray" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li class="nav-item my-2 px-2 dropdown">
+              <a class="nav-link dropdown-toggle text-gray fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 News
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
+              <ul class="dropdown-menu bg-primary">
+                <li><a class="dropdown-item link-dropdown" href="blog.html">Blog</a></li>
+                <li><a class="dropdown-item link-dropdown" href="#!">Gallery</a></li>
               </ul>
             </li>
-            <li class="nav-item dropdown my-2 px-2">
-              <a class="nav-link dropdown-toggle text-gray" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Contact
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-              </ul>
+            <li class="nav-item my-2 px-2">
+              <a class="nav-link text-gray fw-medium" href="contact.html">Contact</a>
             </li>
           </ul>
           <div class="navbar-nav ms-auto">
             <ul class="navbar-nav">
-              <li class="nav-item dropdown my-2 px-2">
-                <a class="nav-link dropdown-toggle text-gray" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <li class="nav-item my-2 px-2 dropdown">
+                <a class="nav-link dropdown-toggle text-gray fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   ENG
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
+                <ul class="dropdown-menu bg-primary">
+                  <li><a class="dropdown-item link-dropdown" href="#!">IND</a></li>
                 </ul>
               </li>
             </ul>
             <form class="d-flex my-2 px-2" role="search">
               <div class="me-2 align-self-center">
-                <input class="form-control w-100 search-navbar" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control w-100 search-navbar bg-lightgray" type="search" placeholder="Search" aria-label="Search">
               </div>
               <button class="btn btn-primary btn-navbar m-0" type="submit"><img src="assets/img/icon/search_icon.svg" alt="" class=""></button>
             </form>
@@ -96,21 +88,21 @@
     <!-- End navbar -->
 
     <!-- Start breadcrumb -->
-    <section class="page-header" id="breadcrumb">
+    <section class="page-header p-0 my-5">
       <div class="container">
-        <div class="row">
-          <div class="col-8 mx-auto text-center">
-            <h2 class="mb-3 text-capitalize text-primary title2">Blog</h2>
-            <ul class="list-inline breadcrumbs text-capitalize" style="font-weight:500">
-              <li class="list-inline-item"><a href="#!">Home</a>
-              </li>
-              <li class="list-inline-item">/ &nbsp; <a href="blog.html">Blog</a>
-              </li>
-            </ul>
+          <div class="row">
+              <div class="col-8 mx-auto text-center">
+                  <h2 class="mb-2 title2 text-primary">Blog</h2>
+                  <ul class="list-inline breadcrumbs fw-medium mb-0">
+                      <li class="list-inline-item"><a href="index.html">Home</a>
+                      </li>
+                      <li class="list-inline-item">/ &nbsp; <a href="blog.html">Blog</a>
+                      </li>
+                  </ul>
+              </div>
           </div>
-        </div>
       </div>
-    </section>
+  </section>
     <!-- End breadcrumb -->
 
     <!-- Start blog -->
@@ -120,99 +112,77 @@
           <div class="col-lg-9">
             <div class="me-lg-4">
               <div class="row gy-5">
-                <div class="col-md-6" data-aos="fade">
+                <div class="col-md-6">
                   <article class="blog-post">
                     <div class="post-slider slider-sm rounded">
-                      <img loading="lazy" decoding="async" src="" alt="Post Thumbnail">
-                      <img loading="lazy" decoding="async" src="assets/img/" alt="Post Thumbnail">
-                      <img loading="lazy" decoding="async" src="assets/img/" alt="Post Thumbnail">
+                      <img src="assets/img/images/blog1.jpg" alt="Post Thumbnail">
                     </div>
                     <div class="pt-4">
-                      <p class="mb-3">15 Mar, 2020</p>
-                      <h2 class="h4"><a class="text-black" href="blog-details.html">Elements That You Can Use To Create A New Post On This Template.</a></h2>
-                      <p>Heading example Here is example of hedings. You can use this heading by following …</p> <a href="blog-details.html" class="text-primary fw-bold" aria-label="Read the full article by clicking here">Read More</a>
+                      <p class="mb-3 title6 text-primary fw-medium mt-30">15 Mar, 2020</p>
+                      <h2 class=""><a href="#!" class="title3 text-gray fw-semibold">Elements That You Can Use To Create A New Post On This Template.</a></h2>
+                      <p class="fw-medium title7 mt-20 mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </p>
+                      <a href="#!" class="btn btn-primary btn-sm py-2 rounded-2">Read More</a>
                     </div>
                   </article>
                 </div>
-                <div class="col-md-6" data-aos="fade">
+                <div class="col-md-6">
                   <article class="blog-post">
                     <div class="post-slider slider-sm rounded">
-                      <img loading="lazy" decoding="async" src="images/blog/post-1.jpg" alt="Post Thumbnail">
+                      <img src="assets/img/images/blog2.jpg" alt="Post Thumbnail">
                     </div>
                     <div class="pt-4">
-                      <p class="mb-3">14 Mar, 2020</p>
-                      <h2 class="h4"><a class="text-black" href="blog-details.html">Cheerful Loving Couple Bakers Drinking Coffee</a></h2>
-                      <p>It’s no secret that the digital industry is booming. From exciting startups to global …</p> <a href="blog-details.html" class="text-primary fw-bold" aria-label="Read the full article by clicking here">Read More</a>
+                      <p class="mb-3 title6 text-primary fw-medium mt-30">15 Mar, 2020</p>
+                      <h2 class=""><a href="#!" class="title3 text-gray fw-semibold">Elements That You Can Use To Create A New Post On This Template.</a></h2>
+                      <p class="fw-medium title7 mt-20 mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </p>
+                      <a href="#!" class="btn btn-primary btn-sm py-2 rounded-2">Read More</a>
                     </div>
                   </article>
                 </div>
-                <div class="col-md-6" data-aos="fade">
+                <div class="col-md-6">
                   <article class="blog-post">
                     <div class="post-slider slider-sm rounded">
-                      <img loading="lazy" decoding="async" src="images/blog/post-2.jpg" alt="Post Thumbnail">
+                      <img src="assets/img/images/blog1.jpg" alt="Post Thumbnail">
                     </div>
                     <div class="pt-4">
-                      <p class="mb-3">14 Mar, 2020</p>
-                      <h2 class="h4"><a class="text-black" href="blog-details.html">Cheerful Loving Couple Bakers Drinking Coffee</a></h2>
-                      <p>It’s no secret that the digital industry is booming. From exciting startups to global …</p> <a href="blog-details.html" class="text-primary fw-bold" aria-label="Read the full article by clicking here">Read More</a>
+                      <p class="mb-3 title6 text-primary fw-medium mt-30">15 Mar, 2020</p>
+                      <h2 class=""><a href="#!" class="title3 text-gray fw-semibold">Elements That You Can Use To Create A New Post On This Template.</a></h2>
+                      <p class="fw-medium title7 mt-20 mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </p>
+                      <a href="#!" class="btn btn-primary btn-sm py-2 rounded-2">Read More</a>
                     </div>
                   </article>
                 </div>
-                <div class="col-md-6" data-aos="fade">
+                <div class="col-md-6">
                   <article class="blog-post">
                     <div class="post-slider slider-sm rounded">
-                      <img loading="lazy" decoding="async" src="images/blog/post-3.jpg" alt="Post Thumbnail">
+                      <img src="assets/img/images/blog2.jpg" alt="Post Thumbnail">
                     </div>
                     <div class="pt-4">
-                      <p class="mb-3">14 Mar, 2020</p>
-                      <h2 class="h4"><a class="text-black" href="blog-details.html">Cheerful Loving Couple Bakers Drinking Coffee</a></h2>
-                      <p>It’s no secret that the digital industry is booming. From exciting startups to global …</p> <a href="blog-details.html" class="text-primary fw-bold" aria-label="Read the full article by clicking here">Read More</a>
+                      <p class="mb-3 title6 text-primary fw-medium mt-30">15 Mar, 2020</p>
+                      <h2 class=""><a href="#!" class="title3 text-gray fw-semibold">Elements That You Can Use To Create A New Post On This Template.</a></h2>
+                      <p class="fw-medium title7 mt-20 mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </p>
+                      <a href="#!" class="btn btn-primary btn-sm py-2 rounded-2">Read More</a>
                     </div>
                   </article>
                 </div>
-                <div class="col-md-6" data-aos="fade">
-                  <article class="blog-post">
-                    <div class="post-slider slider-sm rounded">
-                      <img loading="lazy" decoding="async" src="images/blog/post-4.jpg" alt="Post Thumbnail">
-                    </div>
-                    <div class="pt-4">
-                      <p class="mb-3">14 Mar, 2020</p>
-                      <h2 class="h4"><a class="text-black" href="blog-details.html">Cheerful Loving Couple Bakers Drinking Coffee</a></h2>
-                      <p>It’s no secret that the digital industry is booming. From exciting startups to global …</p> <a href="blog-details.html" class="text-primary fw-bold" aria-label="Read the full article by clicking here">Read More</a>
-                    </div>
-                  </article>
-                </div>
-                <div class="col-md-6" data-aos="fade">
-                  <article class="blog-post">
-                    <div class="post-slider slider-sm rounded">
-                      <img loading="lazy" decoding="async" src="images/blog/post-5.jpg" alt="Post Thumbnail" width="420" height="280">
-                    </div>
-                    <div class="pt-4">
-                      <p class="mb-3">14 Mar, 2020</p>
-                      <h2 class="h4"><a class="text-black" href="blog-details.html">Cheerful Loving Couple Bakers Drinking Coffee</a></h2>
-                      <p>It’s no secret that the digital industry is booming. From exciting startups to global …</p> <a href="blog-details.html" class="text-primary fw-bold" aria-label="Read the full article by clicking here">Read More</a>
-                    </div>
-                  </article>
-                </div>
-                <div class="col-12">
-                  <nav class="mt-4">
-                    <!-- pagination -->
-                    <nav class="mb-md-50">
-                      <ul class="pagination justify-content-center">
-                        <li class="page-item active "> <a href="blog.html" class="page-link">
-                            1
-                          </a>
-                        </li>
-                        <li class="page-item"> <a href="blog.html" class="page-link">
-                            2
-                          </a>
-                        </li>
-                        <li class="page-item">
-                          <a class="page-link" href="blog.html" aria-label="Pagination Arrow"> <i class="fas fa-angle-right"></i>
-                          </a>
-                        </li>
-                      </ul>
-                    </nav>
+                <div class="col-12 prevNextButton">
+                  <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center text-primary">
+                      <li class="page-item">
+                        <a class="page-link" href="#">Previous</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">1</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                      </li>
+                    </ul>
                   </nav>
                 </div>
               </div>
@@ -225,46 +195,46 @@
               <!-- post-item -->
               <ul class="list-unstyled widget-list">
                 <li class="d-flex widget-post align-items-center">
-                  <a class="text-black" href="/blog/elements/">
+                  <a class="text-black" href="#!">
                     <div class="widget-post-image flex-shrink-0 me-3">
-                      <img class="rounded" loading="lazy" decoding="async" src="images/blog/post-4.jpg" alt="Post Thumbnail">
+                      <img class="rounded" loading="lazy" decoding="async" src="assets/img/images/blog1.jpg" alt="Post Thumbnail">
                     </div>
                   </a>
                   <div class="flex-grow-1">
-                    <h5 class="h6 mb-0"><a class="text-black" href="blog-details.html">Elements That You Can Use To Create A New Post On This Template.</a></h5>
-                    <small>March 15, 2020</small>
+                    <h5 class="h6 mb-0"><a class="text-black" href="#!">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></h5>
+                    <small class="text-primary">March 15, 2020</small>
                   </div>
                 </li>
               </ul>
               <ul class="list-unstyled widget-list">
                 <li class="d-flex widget-post align-items-center">
-                  <a class="text-black" href="/blog/post-1/">
+                  <a class="text-black" href="#!">
                     <div class="widget-post-image flex-shrink-0 me-3">
-                      <img class="rounded" loading="lazy" decoding="async" src="images/blog/post-1.jpg" alt="Post Thumbnail">
+                      <img class="rounded" loading="lazy" decoding="async" src="assets/img/images/blog2.jpg" alt="Post Thumbnail">
                     </div>
                   </a>
                   <div class="flex-grow-1">
-                    <h5 class="h6 mb-0"><a class="text-black" href="blog-details.html">Cheerful Loving Couple Bakers Drinking Coffee</a></h5>
-                    <small>March 14, 2020</small>
+                    <h5 class="h6 mb-0"><a class="text-black" href="#!">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></h5>
+                    <small class="text-primary">March 15, 2020</small>
                   </div>
                 </li>
               </ul>
               <ul class="list-unstyled widget-list">
                 <li class="d-flex widget-post align-items-center">
-                  <a class="text-black" href="/blog/post-2/">
+                  <a class="text-black" href="#!">
                     <div class="widget-post-image flex-shrink-0 me-3">
-                      <img class="rounded" loading="lazy" decoding="async" src="images/blog/post-2.jpg" alt="Post Thumbnail">
+                      <img class="rounded" loading="lazy" decoding="async" src="assets/img/images/blog1.jpg" alt="Post Thumbnail">
                     </div>
                   </a>
                   <div class="flex-grow-1">
-                    <h5 class="h6 mb-0"><a class="text-black" href="blog-details.html">Cheerful Loving Couple Bakers Drinking Coffee</a></h5>
-                    <small>March 14, 2020</small>
+                    <h5 class="h6 mb-0"><a class="text-black" href="#!">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></h5>
+                    <small class="text-primary">March 15, 2020</small>
                   </div>
                 </li>
               </ul>
             </div>
             <!-- Social -->
-            <div class="widget">
+            <div class="widget mt-50">
               <h4 class="widget-title"><span>Social Links</span></h4>
               <ul class="list-unstyled list-inline mb-0 d-flex justify-content-between">
                 <li class="list-inline-item"><a title="Explorer Linkedin Profile" class="text-black" href="#!"><img src="assets/img/icon/linkedin.svg" alt=""></a>
@@ -283,6 +253,15 @@
       </div>
     </section>
     <!-- End blog -->
+
+    <div class="banner-contact text-center d-flex justify-content-center" id="bannerContact">
+      <div class="container">
+        <div class="col-md-8 col-12 m-auto">
+          <h1 class="title1 text-white">“If you truly love nature, you will find beauty everywhere.”</h1>
+          <h1 class="title1 text-white mt-30">Vincent van Gogh</h1>
+        </div>
+      </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>

@@ -66,6 +66,7 @@ a.text-gray:target {
 
 .title3 {
   font-size: 24px;
+  line-height: 36px;
 }
 
 .title4 {
@@ -79,10 +80,23 @@ a.text-gray:target {
 
 .title6 {
   font-size: 16px;
+  line-height: 24px;
 }
 
 .title7 {
   font-size: 14px;
+}
+
+input.input-custom {
+  height: 33px;
+}
+
+textarea.ta-custom {
+  height: 90px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
 }
 
 .mb-30 {
@@ -101,6 +115,10 @@ a.text-gray:target {
   margin-bottom: 100px;
 }
 
+.mt-20 {
+  margin-top: 20px;
+}
+
 .mt-30 {
   margin-top: 30px;
 }
@@ -115,6 +133,10 @@ a.text-gray:target {
 
 .mt-100 {
   margin-top: 100px;
+}
+
+.p-50 {
+  padding: 50px;
 }
 
 .p-40 {
@@ -142,6 +164,11 @@ a.text-gray:target {
 .link-dropdown:hover {
   color: #51B56D;
   background-color: white;
+}
+
+.prevNextButton {
+  margin-top: 90px;
+  margin-bottom: 20px;
 }
 
 .banner-home {
@@ -177,6 +204,22 @@ a.text-gray:target {
 
 .card-home1 h2 {
   font-size: 64px;
+}
+
+.contact-card {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.banner-contact {
+  background-image: url(../img/images/quoteImage.png);
+  padding: 120px 0;
+}
+
+.banner-resources {
+  background-image: url(../img/banner/banner1.jpg);
+  padding: 170px 0;
 }
 
 @media only screen and (max-width: 500px) {
