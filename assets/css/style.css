@@ -111,6 +111,81 @@ a.text-gray:target {
   width: 20px;
 }
 
+#home2 {
+  text-align: center;
+  padding-bottom: 15%;
+}
+
+.desc-general h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #42a85f;
+}
+
+.desc-general p {
+  font-weight: 500px;
+  font-size: 20px;
+}
+
+.desc-general {
+  padding: 17%;
+}
+
+#home2 .row .col {
+  height: 200px;
+  width: 252px;
+  border-radius: 20px;
+  background: rgb(200, 252, 215);
+}
+
+#home2 .row .col p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #42a85f;
+}
+
+#home2 .row .col h2 {
+  font-size: 54px;
+  font-weight: 600;
+  color: #42a85f;
+}
+
+#home3 {
+  text-align: center;
+}
+
+#home3 .tittle-map {
+  padding: 20%;
+}
+
+#home3 .tittle-map h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #42a85f;
+}
+
+#home3 .tittle-map p {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+#home3 .row .col {
+  height: 136px;
+  width: 272px;
+  margin-bottom: 30px;
+}
+
+#home3 .row .col h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #42a85f;
+}
+
+#home3 .row .col p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
 nav li {
   font-size: 14px;
 }
