@@ -292,16 +292,32 @@ a.page-link {
 #section1 {
   padding-bottom: 60px;
 }
-#section3 {
-  background-color: $green;
-  padding: 5rem 0rem 5rem;
-  color: white;
+.timeline {
+  color: $green;
 }
 
-#section3 h1 {
-  padding-bottom: 30px;
+.timelineSection {
+  position: relative;
+  text-align: center;
+  margin-top: 170px;
+  padding: 50px;
 }
-
+.line-timeline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.circle-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.timelineSection .circle-container img {
+  height: 60px;
+  width: 60px;
+}
 #section4 .cardSection4 {
   height: 100%;
   width: 100%;
@@ -405,6 +421,23 @@ a.page-link {
 @media only screen and (max-width: 550px) {
   .partnerContainer {
     transform: translateX(15%);
+  }
+}
+@media only screen and (max-width: 990px) {
+  .circle-container {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 200px;
+  }
+  #section3 {
+    margin: 100px 0 300px;
+  }
+  .timeline {
+    margin-bottom: 500px;
+  }
+  .line-timeline {
+    margin: auto;
+    transform: rotate(90deg) translate(0px, 257px);
   }
 }
 @media only screen and (max-width: 480px) {
