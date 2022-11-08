@@ -150,12 +150,6 @@ a.text-gray:target {
     background-color: white;
 }
 
-// general
-.prevNextButton {
-    margin-top: 90px;
-    margin-bottom: 20px;
-}
-
 
 // Start Home
 .banner-home {
@@ -201,6 +195,7 @@ a.text-gray:target {
 }
 // end contact
 
+
 // resources
 .banner-resources {
     background-image:url(../img/banner/banner1.jpg);
@@ -219,7 +214,7 @@ a.text-gray:target {
 }
 
 .image-people {
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -229,6 +224,33 @@ a.text-gray:target {
 }
 // end profile
 
+
+// Gallery
+.banner-gallery {
+    background-image:url(../img/banner/banner1.jpg);
+    padding: 170px 0;
+}
+
+.gallery-card {
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.gallery-card:hover {
+    box-shadow: 0px 4px 30px 2px rgba(0, 0, 0, 0.25);
+}
+
+.gallery-card > img {
+    border-radius: 10px 10px 0 0;
+}
+
+.gallery-card > .card-body {
+    padding: 30px 10px;
+}
+// end gallery
+
+
+// responsive
 @media only screen and (max-width: 500px) {
     .sm-d-none {
         display: none;
