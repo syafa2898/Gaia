@@ -5,6 +5,31 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* Services */
+.more-services-btn {
+  padding: 15px 45px;
+  gap: 10px;
+  width: 269px;
+  height: 60px;
+  border: 2px solid #51b56d;
+  border-radius: 50px;
+}
+
+.services-card {
+  width: 370px;
+  height: 308px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.services-card:hover {
+  box-shadow: 0px 4px 30px 2px rgba(0, 0, 0, 0.25);
+}
+
+.bg-lightgray2 {
+  background-color: #f8f8f8;
+}
+
 /* gallery */
 .btn-group > .btn {
   border-color: rgb(177, 177, 177);
@@ -364,6 +389,14 @@ a.text-gray:target {
   color: #333;
 }
 
+.mr-25 {
+  margin-right: 25px;
+}
+
+.ml-25 {
+  margin-left: 25px;
+}
+
 .text-green {
   color: #42a85f;
 }
@@ -400,8 +433,16 @@ a.text-gray:target {
   margin-top: 30px;
 }
 
+.mt-35 {
+  margin-top: 35px;
+}
+
 .mt-40 {
   margin-top: 40px;
+}
+
+.mt-45 {
+  margin-top: 45px;
 }
 
 .mt-50 {
@@ -464,6 +505,10 @@ a.text-gray:target {
   padding-left: 10px;
 }
 
+.pl-30 {
+  padding-left: 30px;
+}
+
 .p-qa {
   padding-left: 295px;
   padding-right: 295px;
@@ -485,6 +530,10 @@ a.text-gray:target {
   .card {
     width: 320px;
     height: 270px;
+  }
+  .services-card {
+    width: 296px;
+    height: 270.4px;
   }
   .process-title {
     font-weight: 600;
@@ -525,6 +574,10 @@ a.text-gray:target {
 @media all and (min-width: 992px) {
   .dropdown-menu li {
     position: relative;
+  }
+  .services-card {
+    width: 296px;
+    height: 270.4px;
   }
   .nav-item .submenu {
     display: none;
@@ -584,6 +637,25 @@ a.text-gray:target {
   }
 }
 @media (max-width: 992px) {
+  .btn-group > .btn {
+    font-size: 10px;
+  }
+  .services-card {
+    width: 296px;
+    height: 270.4px;
+  }
+  .gaia-header {
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+  }
+  .gaia-desc {
+    font-size: 13px;
+  }
+  .gallery-card {
+    width: 217.6px;
+    height: 285px;
+  }
   .dropdown-menu .dropdown-menu {
     margin-left: 0.7rem;
     margin-right: 0.7rem;
@@ -655,6 +727,14 @@ a.text-gray:target {
   .process-card {
     width: 14rem;
   }
+  .gaia-header {
+    font-size: 36px;
+    padding: 0;
+    margin: 0;
+  }
+  .gaia-desc {
+    font-size: 10px;
+  }
   .banner-title {
     font-size: 20px;
     line-height: 30px;
@@ -677,10 +757,18 @@ a.text-gray:target {
     display: none;
   }
 }
-@media (max-width: 767px) and (max-width: 400px) {
+@media (max-width: 767px) and (max-width: 500px) {
   .card {
     width: 290px;
     height: 230px;
+  }
+  .gaia-header {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+  }
+  .gaia-desc {
+    font-size: 10px;
   }
   .card-body {
     padding: 20px 20px 30px 20px;
