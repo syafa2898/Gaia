@@ -6,6 +6,12 @@ body {
 }
 
 /* Services */
+.btn-container {
+  display: flex;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+
 .margin-btn {
   margin-right: 50px;
 }
@@ -676,7 +682,7 @@ a.text-gray:target {
   }
   .services-card {
     width: 236.8px;
-    height: 216.32px;
+    height: 225px;
   }
   .gaia-header {
     font-size: 40px;
@@ -758,14 +764,12 @@ a.text-gray:target {
   }
 } /*# sourceMappingURL=style.css.map */
 @media (max-width: 767px) {
+  .btn-container {
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
   .mt-80 {
     margin-top: 50px;
-  }
-  .more-services-btn {
-    padding: 10.5px 31.5px;
-    gap: 7px;
-    width: 188.3px;
-    height: 42px;
   }
   .process-card {
     width: 14rem;
