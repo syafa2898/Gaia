@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 $lightgray: #FBFBFB;
-$lightgray2: #f8f8f8;
+$softgray: #f8f8f8;
 $gray: #333;
 $green: #51B56D;
 $lightgreen: #C8FCD7;
@@ -35,6 +35,10 @@ a.text-gray:target {
 // background
 .bg-lightgray {
     background-color: $lightgray;
+}
+
+.bg-softgray {
+    background-color: $softgray;
 }
 
 .bg-lightgreen {
@@ -150,6 +154,18 @@ a.text-gray:target {
     background-color: white;
 }
 
+// general
+.overlay {
+    filter: contrast(100%) brightness(0.4);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 // Start Home
 .banner-home {
@@ -188,11 +204,6 @@ a.text-gray:target {
     box-shadow: 0px 4px 30px 2px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
 }
-
-.banner-contact {
-    background-image:url(../img/images/quoteImage.png);
-    padding: 120px 0;
-}
 // end contact
 
 
@@ -213,6 +224,7 @@ a.text-gray:target {
     width: 200%;
 }
 
+// line dashed profile
 .image-people {
     border-radius: 10px;
 }
@@ -223,6 +235,14 @@ a.text-gray:target {
     }
 }
 // end profile
+
+
+// blog
+.banner-blog {
+    background-image:url(../img/images/quoteImage.png);
+    padding: 120px 0;
+}
+// end blog
 
 
 // Gallery
@@ -248,6 +268,34 @@ a.text-gray:target {
     padding: 30px 10px;
 }
 // end gallery
+
+
+// services
+.card-services {
+    padding: 40px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-services:hover{
+    box-shadow: 0px 4px 30px 2px rgba(0, 0, 0, 0.25);
+}
+// end services
+
+
+// project
+.banner-project {
+    background-image:url(../img/banner/banner1.jpg);
+    padding: 170px 0;
+}
+.card-project {
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+.card-project > img {
+    border-radius: 10px 10px 0 0;
+}
+// end project
 
 
 // responsive

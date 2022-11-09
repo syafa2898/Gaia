@@ -29,6 +29,10 @@ a.text-gray:target {
   background-color: #FBFBFB;
 }
 
+.bg-softgray {
+  background-color: #f8f8f8;
+}
+
 .bg-lightgreen {
   background-color: #C8FCD7;
 }
@@ -158,6 +162,17 @@ a.text-gray:target {
   background-color: white;
 }
 
+.overlay {
+  filter: contrast(100%) brightness(0.4);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .banner-home {
   background-image: url(../img/banner/bg-space.jpg);
   padding: 100px 0;
@@ -192,11 +207,6 @@ a.text-gray:target {
   border-radius: 20px;
 }
 
-.banner-contact {
-  background-image: url(../img/images/quoteImage.png);
-  padding: 120px 0;
-}
-
 .banner-resources {
   background-image: url(../img/banner/banner1.jpg);
   padding: 170px 0;
@@ -219,6 +229,11 @@ a.text-gray:target {
     width: 300%;
   }
 }
+.banner-blog {
+  background-image: url(../img/images/quoteImage.png);
+  padding: 120px 0;
+}
+
 .banner-gallery {
   background-image: url(../img/banner/banner1.jpg);
   padding: 170px 0;
@@ -239,6 +254,30 @@ a.text-gray:target {
 
 .gallery-card > .card-body {
   padding: 30px 10px;
+}
+
+.card-services {
+  padding: 40px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card-services:hover {
+  box-shadow: 0px 4px 30px 2px rgba(0, 0, 0, 0.25);
+}
+
+.banner-project {
+  background-image: url(../img/banner/banner1.jpg);
+  padding: 170px 0;
+}
+
+.card-project {
+  border-radius: 10px;
+  border: 1px solid #333;
+}
+
+.card-project > img {
+  border-radius: 10px 10px 0 0;
 }
 
 @media only screen and (max-width: 500px) {
