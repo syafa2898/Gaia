@@ -101,7 +101,7 @@ body {
   position: relative;
 }
 
-.example .text {
+.example .centered-banner {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -111,7 +111,11 @@ body {
   color: white;
   text-align: center;
 }
-
+.example .text {
+  display: flex;
+  flex-direction: column;
+  padding: 10% 10% 10%;
+}
 .gaia-header {
   font-style: normal;
   font-weight: 700;
