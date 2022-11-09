@@ -1,360 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Gallery</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-      crossorigin="anonymous"
-    />
 
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
 
-  <body>
-    <!-- navbar start -->
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#"
-          ><img src="assets/img/logo/logo-gaia.png" alt=""
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="assets/img/logo/logo-gaia.png" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown my-2 px-2">
+            <a class="nav-link dropdown-toggle text-gray" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Our Services
+            </a>
+            <ul class="dropdown-menu bg-green">
+              <li>
+                <a class="dropdown-item dropdown-toggle" href="#">Understanding Your Nature</a>
+                <ul class="submenu dropdown-menu">
+                  <li>
+                    <a class="dropdown-item text-dark" href="#">Biodiversity & Social Value</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-dark" href="#">Submenu item 2</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown my-2 px-2">
+            <a class="nav-link dropdown-toggle text-gray" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              About Us
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown my-2 px-2">
+            <a class="nav-link dropdown-toggle text-gray" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Resources
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown my-2 px-2">
+            <a class="nav-link dropdown-toggle text-gray" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Projects
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown my-2 px-2">
+            <a class="nav-link dropdown-toggle text-gray" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              News
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown my-2 px-2">
+            <a class="nav-link dropdown-toggle text-gray" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Contact
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="navbar-nav ms-auto">
+          <ul class="navbar-nav">
             <li class="nav-item dropdown my-2 px-2">
-              <a
-                class="nav-link dropdown-toggle text-gray"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Our Services
-              </a>
-              <ul class="dropdown-menu bg-green">
-                <li>
-                  <a class="dropdown-item dropdown-toggle" href="#"
-                    >Understanding Your Nature</a
-                  >
-                  <ul class="submenu dropdown-menu">
-                    <li>
-                      <a class="dropdown-item text-dark" href="#"
-                        >Biodiversity & Social Value</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item text-dark" href="#"
-                        >Submenu item 2</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown my-2 px-2">
-              <a
-                class="nav-link dropdown-toggle text-gray"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                About Us
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown my-2 px-2">
-              <a
-                class="nav-link dropdown-toggle text-gray"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Resources
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown my-2 px-2">
-              <a
-                class="nav-link dropdown-toggle text-gray"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Projects
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown my-2 px-2">
-              <a
-                class="nav-link dropdown-toggle text-gray"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                News
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown my-2 px-2">
-              <a
-                class="nav-link dropdown-toggle text-gray"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Contact
+              <a class="nav-link dropdown-toggle text-gray" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                ENG
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
               </ul>
             </li>
           </ul>
-          <div class="navbar-nav ms-auto">
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown my-2 px-2">
-                <a
-                  class="nav-link dropdown-toggle text-gray"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  ENG
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex my-2" role="search">
-              <div class="me-2">
-                <input
-                  class="form-control w-100 search-navbar"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-              </div>
-              <button class="btn btn-green d-flex" type="submit">
-                <img src="assets/img/icon/search_icon.svg" alt="" class="" />
-              </button>
-            </form>
-          </div>
+          <form class="d-flex my-2" role="search">
+            <div class="me-2">
+              <input class="form-control w-100 search-navbar" type="search" placeholder="Search" aria-label="Search" />
+            </div>
+            <button class="btn btn-green d-flex" type="submit">
+              <img src="assets/img/icon/search_icon.svg" alt="" class="" />
+            </button>
+          </form>
         </div>
-      </div>
-    </nav>
-    <!-- navbar end -->
-
-    <!-- heading start-->
-    <div class="col-12 text-center mt-40 mb-40">
-      <h3 class="banner-title green-2">Understanding Nature</h3>
-      <div class="link d-flex justify-content-center gap-1 text-center">
-        <div class="homeLink">Our Service</div>
-        <div class="slash">/</div>
-        <div class="opacity-50">Understanding Nature</div>
       </div>
     </div>
-    <!-- heading end -->
+  </nav>
+  <!-- navbar end -->
 
-    <!-- banner start -->
-    <section id="banner">
-      <div class="example">
-        <img src="/assets/img/images/resources.png" />
-        <div class="text">
-          <h2 class="gaia-header">GAIA</h2>
-          <p class="gaia-desc">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
-          </p>
-        </div>
+  <!-- heading start-->
+  <div class="col-12 text-center mt-40 mb-40">
+    <h3 class="banner-title green-2">Understanding Nature</h3>
+    <div class="link d-flex justify-content-center gap-1 text-center">
+      <div class="homeLink">Our Service</div>
+      <div class="slash">/</div>
+      <div class="opacity-50">Understanding Nature</div>
+    </div>
+  </div>
+  <!-- heading end -->
+
+  <!-- banner start -->
+  <section id="banner">
+    <div class="example">
+      <img src="/assets/img/images/resources.png" />
+      <img src="assets/img/images/darkService.png" class="centered-banner">
+      <div class="text centered-banner w-100">
+        <h2 class="gaia-header">GAIA</h2>
+        <p class="gaia-desc">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+        </p>
       </div>
-    </section>
-    <!-- banner end -->
+    </div>
+  </section>
+  <!-- banner end -->
 
-    <!-- Biodiversity start -->
-    <section id="biodiversity">
-      <div
-        class="banner container pt-100 pb-100 text-black text-center align-self-center"
-      >
-        <h2 class="banner-title mb-10 green-2">Understanding Nature</h2>
-        <h2 class="banner-title2">Biodiversity</h2>
+  <!-- Biodiversity start -->
+  <section id="biodiversity">
+    <div class="banner container pt-100 pb-100 text-black text-center align-self-center">
+      <h2 class="banner-title mb-10 green-2">Understanding Nature</h2>
+      <h2 class="banner-title2">Biodiversity</h2>
 
-        <div
-          class="container-card row row-cols-1 row-cols-md-3 row-cols-xl-3 g-3"
-        >
-          <div class="col mt-80">
-            <div class="services-card">
-              <img
-                src="./assets/img/icon/services_1.svg"
-                width="70px"
-                class="mt-45"
-                alt=""
-              />
-              <h2 class="process-title mt-35">HCV- HCS</h2>
-              <p class="desc-post pt-10 pb-40 pr-30 pl-30">
-                We focus our service in spatial analysis and information
-                management.
-              </p>
-            </div>
+      <div class="container-card row row-cols-1 row-cols-md-3 row-cols-xl-3 g-3">
+        <div class="col mt-80">
+          <div class="services-card">
+            <img src="./assets/img/icon/services_1.svg" width="70px" class="mt-45" alt="" />
+            <h2 class="process-title mt-35">HCV- HCS</h2>
+            <p class="desc-post pt-10 pb-40 pr-30 pl-30">
+              We focus our service in spatial analysis and information
+              management.
+            </p>
           </div>
-          <div class="col mt-80">
-            <div class="services-card">
-              <img
-                src="./assets/img/icon/services_1.svg"
-                width="70px"
-                class="mt-45"
-                alt=""
-              />
-              <h2 class="process-title mt-35">SBIA</h2>
-              <p class="desc-post pt-10 pb-40 pr-30 pl-30">
-                We focus our service in spatial analysis and information
-                management.
-              </p>
-            </div>
+        </div>
+        <div class="col mt-80">
+          <div class="services-card">
+            <img src="./assets/img/icon/services_1.svg" width="70px" class="mt-45" alt="" />
+            <h2 class="process-title mt-35">SBIA</h2>
+            <p class="desc-post pt-10 pb-40 pr-30 pl-30">
+              We focus our service in spatial analysis and information
+              management.
+            </p>
           </div>
-          <div class="col mt-80">
-            <div class="services-card">
-              <img
-                src="./assets/img/icon/services_1.svg"
-                width="70px"
-                class="mt-45"
-                alt=""
-              />
-              <h2 class="process-title mt-35">FPIC</h2>
-              <p class="desc-post pt-10 pb-40 pr-30 pl-30">
-                We focus our service in spatial analysis and information
-                management.
-              </p>
-            </div>
+        </div>
+        <div class="col mt-80">
+          <div class="services-card">
+            <img src="./assets/img/icon/services_1.svg" width="70px" class="mt-45" alt="" />
+            <h2 class="process-title mt-35">FPIC</h2>
+            <p class="desc-post pt-10 pb-40 pr-30 pl-30">
+              We focus our service in spatial analysis and information
+              management.
+            </p>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Biodiversity end -->
+    </div>
+  </section>
+  <!-- Biodiversity end -->
 
-    <!-- climate start -->
-    <section class="bg-lightgray2" id="climate">
-      <div
-        class="banner container pt-100 pb-100 text-black text-center align-self-center"
-      >
-        <h2 class="banner-title mb-10 green-2">Understanding Nature</h2>
-        <h2 class="banner-title2">Climate Value</h2>
+  <!-- climate start -->
+  <section class="bg-lightgray2" id="climate">
+    <div class="banner container pt-100 pb-100 text-black text-center align-self-center">
+      <h2 class="banner-title mb-10 green-2">Understanding Nature</h2>
+      <h2 class="banner-title2">Climate Value</h2>
 
-        <div
-          class="container-card row row-cols-2 row-cols-md-3 row-cols-xl-3 g-3 bg-lightgray2"
-        >
-          <div class="col mt-80">
-            <div class="services-card">
-              <img
-                src="./assets/img/icon/services_1.svg"
-                width="70px"
-                class="mt-45"
-                alt=""
-              />
-              <h2 class="process-title mt-35">HCV- HCS</h2>
-              <p class="desc-post pt-10 pb-40 pr-30 pl-30">
-                We focus our service in spatial analysis and information
-                management.
-              </p>
-            </div>
+      <div class="container-card row row-cols-2 row-cols-md-3 row-cols-xl-3 g-3 bg-lightgray2">
+        <div class="col mt-80">
+          <div class="services-card">
+            <img src="./assets/img/icon/services_1.svg" width="70px" class="mt-45" alt="" />
+            <h2 class="process-title mt-35">HCV- HCS</h2>
+            <p class="desc-post pt-10 pb-40 pr-30 pl-30">
+              We focus our service in spatial analysis and information
+              management.
+            </p>
           </div>
-          <div class="col mt-80">
-            <div class="services-card">
-              <img
-                src="./assets/img/icon/services_1.svg"
-                width="70px"
-                class="mt-45"
-                alt=""
-              />
-              <h2 class="process-title mt-35">HCV- HCS</h2>
-              <p class="desc-post pt-10 pb-40 pr-30 pl-30">
-                We focus our service in spatial analysis and information
-                management.
-              </p>
-            </div>
+        </div>
+        <div class="col mt-80">
+          <div class="services-card">
+            <img src="./assets/img/icon/services_1.svg" width="70px" class="mt-45" alt="" />
+            <h2 class="process-title mt-35">HCV- HCS</h2>
+            <p class="desc-post pt-10 pb-40 pr-30 pl-30">
+              We focus our service in spatial analysis and information
+              management.
+            </p>
           </div>
-          <div class="col mt-80">
-            <div class="services-card">
-              <img
-                src="./assets/img/icon/services_1.svg"
-                width="70px"
-                class="mt-45"
-                alt=""
-              />
-              <h2 class="process-title mt-35">HCV- HCS</h2>
-              <p class="desc-post pt-10 pb-40 pr-30 pl-30">
-                We focus our service in spatial analysis and information
-                management.
-              </p>
-            </div>
+        </div>
+        <div class="col mt-80">
+          <div class="services-card">
+            <img src="./assets/img/icon/services_1.svg" width="70px" class="mt-45" alt="" />
+            <h2 class="process-title mt-35">HCV- HCS</h2>
+            <p class="desc-post pt-10 pb-40 pr-30 pl-30">
+              We focus our service in spatial analysis and information
+              management.
+            </p>
           </div>
         </div>
       </div>
-    </section>
-    <!-- climate end -->
+    </div>
+  </section>
+  <!-- climate end -->
 
-    <!-- climate start -->
-    <section class="bg-lightgray2" id="climate">
-      <div
-        class="banner container pt-100 pb-100 text-black text-center align-self-center"
-      >
-        <h2 class="banner-title mb-10 green-2">Understanding Nature</h2>
-        <h2 class="banner-title2">Climate Value</h2>
+  <!-- climate start -->
+  <section class="bg-lightgray2" id="climate">
+    <div class="banner container pt-100 pb-100 text-black text-center align-self-center">
+      <h2 class="banner-title mb-10 green-2">Understanding Nature</h2>
+      <h2 class="banner-title2">Climate Value</h2>
 
-        <div class="container-card row">
-          <div class="col mt-80">
-            <button
-              type="button"
-              class="btn btn-outline-success rounded-pill more-services-btn mr-25"
-            >
-              Success
-            </button>
-            <button
-              type="button"
-              class="btn btn-outline-success rounded-pill more-services-btn ml-25"
-            >
-              Success
-            </button>
-          </div>
+      <div class="container-card row">
+        <div class="col mt-80">
+          <button type="button" class="btn btn-outline-success rounded-pill more-services-btn mr-25">
+            Success
+          </button>
+          <button type="button" class="btn btn-outline-success rounded-pill more-services-btn ml-25">
+            Success
+          </button>
         </div>
       </div>
-    </section>
-    <!-- climate end -->
+    </div>
+  </section>
+  <!-- climate end -->
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
