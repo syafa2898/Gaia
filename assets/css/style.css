@@ -78,10 +78,6 @@ a.text-gray:target {
   line-height: 30px;
 }
 
-.title5 {
-  font-size: 18px;
-}
-
 .title6 {
   font-size: 16px;
   line-height: 24px;
@@ -166,16 +162,15 @@ a.text-gray:target {
   filter: contrast(100%) brightness(0.4);
 }
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.blank-banner {
+  height: 596px;
+  background-size: cover;
 }
 
 .banner-home {
   background-image: url(../img/banner/bg-space.jpg);
   padding: 100px 0;
+  background-size: cover;
 }
 
 .card-banner {
@@ -201,6 +196,28 @@ a.text-gray:target {
   font-size: 64px;
 }
 
+@media only screen and (max-width: 500px) {
+  .banner-home {
+    padding: 50px 0;
+  }
+  .card-banner {
+    background: rgba(43, 45, 52, 0.7);
+    border-radius: 10px;
+    padding: 20px 15px;
+  }
+  .card-banner:hover {
+    color: #333;
+    box-shadow: 0px 4px 30px 2px rgba(0, 0, 0, 0.25);
+    background: rgba(43, 45, 52, 0.89);
+  }
+  .card-home {
+    background-color: #C8FCD7;
+    border-radius: 10px;
+  }
+  .card-home h2 {
+    font-size: 36px;
+  }
+}
 .contact-card {
   background: #ffffff;
   box-shadow: 0px 4px 30px 2px rgba(0, 0, 0, 0.1);
@@ -210,6 +227,7 @@ a.text-gray:target {
 .banner-resources {
   background-image: url(../img/banner/banner1.jpg);
   padding: 170px 0;
+  background-size: cover;
 }
 
 .card-profile:hover {
@@ -232,11 +250,13 @@ a.text-gray:target {
 .banner-blog {
   background-image: url(../img/images/quoteImage.png);
   padding: 120px 0;
+  background-size: cover;
 }
 
 .banner-gallery {
   background-image: url(../img/banner/banner1.jpg);
   padding: 170px 0;
+  background-size: cover;
 }
 
 .gallery-card {
@@ -281,7 +301,74 @@ a.text-gray:target {
 }
 
 @media only screen and (max-width: 500px) {
+  .banner-title {
+    font-size: 36px;
+    line-height: 54px;
+  }
+  .title1 {
+    font-size: 26px;
+    line-height: 39px;
+  }
+  .title2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .title3 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .title4 {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .title6 {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .title7 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .mt-30 {
+    margin-top: 20px;
+  }
+  .mb-50 {
+    margin-bottom: 30px;
+  }
+  .mb-80 {
+    margin-bottom: 50px;
+  }
+  .mb-100 {
+    margin-bottom: 60px;
+  }
+  .mt-20 {
+    margin-top: 20px;
+  }
+  .mt-30 {
+    margin-top: 20px;
+  }
+  .mt-50 {
+    margin-top: 30px;
+  }
+  .mt-80 {
+    margin-top: 50px;
+  }
+  .mt-100 {
+    margin-top: 60px;
+  }
+  .p-50 {
+    padding: 30px;
+  }
+  .p-40 {
+    padding: 20px;
+  }
+  .p-30 {
+    padding: 15px;
+  }
   .sm-d-none {
     display: none;
+  }
+  li.list-inline-item {
+    font-size: 12px;
   }
 }/*# sourceMappingURL=style.css.map */
