@@ -151,6 +151,7 @@ a.text-gray:target {
     background-color: white;
 }
 
+
 // general
 .overlay {
     filter: contrast(100%) brightness(0.4);
@@ -161,6 +162,9 @@ a.text-gray:target {
     background-size: cover;
 }
 
+.page-link {
+    font-size: 14px;
+}
 
 // Start Home
 .banner-home {
@@ -235,6 +239,21 @@ a.text-gray:target {
     background-image:url(../img/banner/banner1.jpg);
     padding: 170px 0;
     background-size: cover;
+}
+
+.btn-resources {
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 400px) {
+    table.table-resources{
+        font-size: 11px;
+    }
+    .btn-resources {
+        padding: 6px 12px;
+        font-size: 9px;
+    }
 }
 // End Resources
 
@@ -316,6 +335,7 @@ a.text-gray:target {
 .banner-project {
     background-image:url(../img/banner/banner1.jpg);
     padding: 170px 0;
+    background-size: cover;
 }
 .card-project {
     border-radius: 10px;
@@ -358,6 +378,12 @@ a.text-gray:target {
         font-size: 12px;
         line-height: 18px;
     }
+    label {
+        font-size: 13px;
+    }
+    .page-link {
+        font-size: 12px;
+    }
 
 
     // spacing
@@ -396,6 +422,9 @@ a.text-gray:target {
     }
     .p-30 {
         padding: 15px;
+    }
+    .section-100 {
+        padding: 60px 0;
     }
 
     // display
